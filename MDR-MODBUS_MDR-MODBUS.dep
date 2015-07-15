@@ -1,0 +1,222 @@
+Dependencies for Project 'MDR-MODBUS', Target 'MDR-MODBUS': (DO NOT MODIFY !)
+F (.\System\MDR32Fx.h)(0x5295C12A)()
+F (.\System\startup_MDR32F9Qx.s)(0x5295C12A)(--cpu Cortex-M3 -g --apcs=interwork -I F:\Programs\Keil4\ARM\RV31\INC-I F:\Programs\Keil4\ARM\CMSIS\Include-I F:\Programs\Keil4\ARM\Inc\Milandr\MDR32F9x--list .\startup_mdr32f9qx.lst --xref -o .\startup_mdr32f9qx.o --depend .\startup_mdr32f9qx.d)
+F (.\System\system_MDR32F9Qx.c)(0x5295C12A)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\MDR-freemodbus -I.\modbus -I.\modbus\ascii -I.\modbus\functions -I.\modbus\include -I.\modbus\rtu -I.\modbus\tcp -I.\port -I.\SPL\inc -I.\SPL\src -I.\Config -I.\System-I F:\Programs\Keil4\ARM\RV31\INC-I F:\Programs\Keil4\ARM\CMSIS\Include-I F:\Programs\Keil4\ARM\Inc\Milandr\MDR32F9x-o .\system_mdr32f9qx.o --omf_browse .\system_mdr32f9qx.crf --depend .\system_mdr32f9qx.d)
+I (System\MDR32Fx.h)(0x5295C12A)
+I (F:\Programs\Keil4\ARM\CMSIS\Include\core_cm3.h)(0x532C21F2)
+I (F:\Programs\Keil4\ARM\ARMCC\include\stdint.h)(0x51C7EF84)
+I (F:\Programs\Keil4\ARM\CMSIS\Include\core_cmInstr.h)(0x532C21F2)
+I (F:\Programs\Keil4\ARM\CMSIS\Include\core_cmFunc.h)(0x532C21F2)
+I (System\system_MDR32F9Qx.h)(0x5295C12A)
+I (.\Config\MDR32F9Qx_config.h)(0x5295C127)
+I (.\Config\MDR32F9Qx_board.h)(0x5295C127)
+I (.\SPL\inc\MDR32F9Qx_lib.h)(0x5295C12A)
+F (.\System\system_MDR32F9Qx.h)(0x5295C12A)()
+F (.\modbus\mb.c)(0x4C0B7060)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\MDR-freemodbus -I.\modbus -I.\modbus\ascii -I.\modbus\functions -I.\modbus\include -I.\modbus\rtu -I.\modbus\tcp -I.\port -I.\SPL\inc -I.\SPL\src -I.\Config -I.\System-I F:\Programs\Keil4\ARM\RV31\INC-I F:\Programs\Keil4\ARM\CMSIS\Include-I F:\Programs\Keil4\ARM\Inc\Milandr\MDR32F9x-o .\mb.o --omf_browse .\mb.crf --depend .\mb.d)
+I (F:\Programs\Keil4\ARM\ARMCC\include\stdlib.h)(0x51C7EF84)
+I (F:\Programs\Keil4\ARM\ARMCC\include\string.h)(0x51C7EF84)
+I (.\port\port.h)(0x55A68CF1)
+I (F:\Programs\Keil4\ARM\ARMCC\include\assert.h)(0x51C7EF84)
+I (F:\Programs\Keil4\ARM\ARMCC\include\stdint.h)(0x51C7EF84)
+I (.\modbus\include\mb.h)(0x4578672A)
+I (.\modbus\include\mbport.h)(0x4C0B7060)
+I (.\modbus\include\mbproto.h)(0x4578672A)
+I (.\modbus\include\mbconfig.h)(0x4C0B7060)
+I (.\modbus\include\mbframe.h)(0x4578672A)
+I (.\modbus\include\mbfunc.h)(0x4578672A)
+I (.\modbus\rtu\mbrtu.h)(0x4578672A)
+I (.\modbus\ascii\mbascii.h)(0x4578672A)
+F (.\modbus\ascii\mbascii.c)(0x4C0B6E9C)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\MDR-freemodbus -I.\modbus -I.\modbus\ascii -I.\modbus\functions -I.\modbus\include -I.\modbus\rtu -I.\modbus\tcp -I.\port -I.\SPL\inc -I.\SPL\src -I.\Config -I.\System-I F:\Programs\Keil4\ARM\RV31\INC-I F:\Programs\Keil4\ARM\CMSIS\Include-I F:\Programs\Keil4\ARM\Inc\Milandr\MDR32F9x-o .\mbascii.o --omf_browse .\mbascii.crf --depend .\mbascii.d)
+I (F:\Programs\Keil4\ARM\ARMCC\include\stdlib.h)(0x51C7EF84)
+I (F:\Programs\Keil4\ARM\ARMCC\include\string.h)(0x51C7EF84)
+I (.\port\port.h)(0x55A68CF1)
+I (F:\Programs\Keil4\ARM\ARMCC\include\assert.h)(0x51C7EF84)
+I (F:\Programs\Keil4\ARM\ARMCC\include\stdint.h)(0x51C7EF84)
+I (.\modbus\include\mb.h)(0x4578672A)
+I (.\modbus\include\mbport.h)(0x4C0B7060)
+I (.\modbus\include\mbproto.h)(0x4578672A)
+I (.\modbus\include\mbconfig.h)(0x4C0B7060)
+I (modbus\ascii\mbascii.h)(0x4578672A)
+I (.\modbus\include\mbframe.h)(0x4578672A)
+I (.\modbus\rtu\mbcrc.h)(0x4578672A)
+F (.\modbus\functions\mbfunccoils.c)(0x45D8BB54)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\MDR-freemodbus -I.\modbus -I.\modbus\ascii -I.\modbus\functions -I.\modbus\include -I.\modbus\rtu -I.\modbus\tcp -I.\port -I.\SPL\inc -I.\SPL\src -I.\Config -I.\System-I F:\Programs\Keil4\ARM\RV31\INC-I F:\Programs\Keil4\ARM\CMSIS\Include-I F:\Programs\Keil4\ARM\Inc\Milandr\MDR32F9x-o .\mbfunccoils.o --omf_browse .\mbfunccoils.crf --depend .\mbfunccoils.d)
+I (F:\Programs\Keil4\ARM\ARMCC\include\stdlib.h)(0x51C7EF84)
+I (F:\Programs\Keil4\ARM\ARMCC\include\string.h)(0x51C7EF84)
+I (.\port\port.h)(0x55A68CF1)
+I (F:\Programs\Keil4\ARM\ARMCC\include\assert.h)(0x51C7EF84)
+I (F:\Programs\Keil4\ARM\ARMCC\include\stdint.h)(0x51C7EF84)
+I (.\modbus\include\mb.h)(0x4578672A)
+I (.\modbus\include\mbport.h)(0x4C0B7060)
+I (.\modbus\include\mbproto.h)(0x4578672A)
+I (.\modbus\include\mbframe.h)(0x4578672A)
+I (.\modbus\include\mbconfig.h)(0x4C0B7060)
+F (.\modbus\functions\mbfuncdiag.c)(0x4578672A)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\MDR-freemodbus -I.\modbus -I.\modbus\ascii -I.\modbus\functions -I.\modbus\include -I.\modbus\rtu -I.\modbus\tcp -I.\port -I.\SPL\inc -I.\SPL\src -I.\Config -I.\System-I F:\Programs\Keil4\ARM\RV31\INC-I F:\Programs\Keil4\ARM\CMSIS\Include-I F:\Programs\Keil4\ARM\Inc\Milandr\MDR32F9x-o .\mbfuncdiag.o --omf_browse .\mbfuncdiag.crf --depend .\mbfuncdiag.d)
+F (.\modbus\functions\mbfuncdisc.c)(0x45D8BB82)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\MDR-freemodbus -I.\modbus -I.\modbus\ascii -I.\modbus\functions -I.\modbus\include -I.\modbus\rtu -I.\modbus\tcp -I.\port -I.\SPL\inc -I.\SPL\src -I.\Config -I.\System-I F:\Programs\Keil4\ARM\RV31\INC-I F:\Programs\Keil4\ARM\CMSIS\Include-I F:\Programs\Keil4\ARM\Inc\Milandr\MDR32F9x-o .\mbfuncdisc.o --omf_browse .\mbfuncdisc.crf --depend .\mbfuncdisc.d)
+I (F:\Programs\Keil4\ARM\ARMCC\include\stdlib.h)(0x51C7EF84)
+I (F:\Programs\Keil4\ARM\ARMCC\include\string.h)(0x51C7EF84)
+I (.\port\port.h)(0x55A68CF1)
+I (F:\Programs\Keil4\ARM\ARMCC\include\assert.h)(0x51C7EF84)
+I (F:\Programs\Keil4\ARM\ARMCC\include\stdint.h)(0x51C7EF84)
+I (.\modbus\include\mb.h)(0x4578672A)
+I (.\modbus\include\mbport.h)(0x4C0B7060)
+I (.\modbus\include\mbproto.h)(0x4578672A)
+I (.\modbus\include\mbframe.h)(0x4578672A)
+I (.\modbus\include\mbconfig.h)(0x4C0B7060)
+F (.\modbus\functions\mbfuncholding.c)(0x45D8BB96)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\MDR-freemodbus -I.\modbus -I.\modbus\ascii -I.\modbus\functions -I.\modbus\include -I.\modbus\rtu -I.\modbus\tcp -I.\port -I.\SPL\inc -I.\SPL\src -I.\Config -I.\System-I F:\Programs\Keil4\ARM\RV31\INC-I F:\Programs\Keil4\ARM\CMSIS\Include-I F:\Programs\Keil4\ARM\Inc\Milandr\MDR32F9x-o .\mbfuncholding.o --omf_browse .\mbfuncholding.crf --depend .\mbfuncholding.d)
+I (F:\Programs\Keil4\ARM\ARMCC\include\stdlib.h)(0x51C7EF84)
+I (F:\Programs\Keil4\ARM\ARMCC\include\string.h)(0x51C7EF84)
+I (.\port\port.h)(0x55A68CF1)
+I (F:\Programs\Keil4\ARM\ARMCC\include\assert.h)(0x51C7EF84)
+I (F:\Programs\Keil4\ARM\ARMCC\include\stdint.h)(0x51C7EF84)
+I (.\modbus\include\mb.h)(0x4578672A)
+I (.\modbus\include\mbport.h)(0x4C0B7060)
+I (.\modbus\include\mbproto.h)(0x4578672A)
+I (.\modbus\include\mbframe.h)(0x4578672A)
+I (.\modbus\include\mbconfig.h)(0x4C0B7060)
+F (.\modbus\functions\mbfuncinput.c)(0x46E7841C)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\MDR-freemodbus -I.\modbus -I.\modbus\ascii -I.\modbus\functions -I.\modbus\include -I.\modbus\rtu -I.\modbus\tcp -I.\port -I.\SPL\inc -I.\SPL\src -I.\Config -I.\System-I F:\Programs\Keil4\ARM\RV31\INC-I F:\Programs\Keil4\ARM\CMSIS\Include-I F:\Programs\Keil4\ARM\Inc\Milandr\MDR32F9x-o .\mbfuncinput.o --omf_browse .\mbfuncinput.crf --depend .\mbfuncinput.d)
+I (F:\Programs\Keil4\ARM\ARMCC\include\stdlib.h)(0x51C7EF84)
+I (F:\Programs\Keil4\ARM\ARMCC\include\string.h)(0x51C7EF84)
+I (.\port\port.h)(0x55A68CF1)
+I (F:\Programs\Keil4\ARM\ARMCC\include\assert.h)(0x51C7EF84)
+I (F:\Programs\Keil4\ARM\ARMCC\include\stdint.h)(0x51C7EF84)
+I (.\modbus\include\mb.h)(0x4578672A)
+I (.\modbus\include\mbport.h)(0x4C0B7060)
+I (.\modbus\include\mbproto.h)(0x4578672A)
+I (.\modbus\include\mbframe.h)(0x4578672A)
+I (.\modbus\include\mbconfig.h)(0x4C0B7060)
+F (.\modbus\functions\mbfuncother.c)(0x4578672A)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\MDR-freemodbus -I.\modbus -I.\modbus\ascii -I.\modbus\functions -I.\modbus\include -I.\modbus\rtu -I.\modbus\tcp -I.\port -I.\SPL\inc -I.\SPL\src -I.\Config -I.\System-I F:\Programs\Keil4\ARM\RV31\INC-I F:\Programs\Keil4\ARM\CMSIS\Include-I F:\Programs\Keil4\ARM\Inc\Milandr\MDR32F9x-o .\mbfuncother.o --omf_browse .\mbfuncother.crf --depend .\mbfuncother.d)
+I (F:\Programs\Keil4\ARM\ARMCC\include\stdlib.h)(0x51C7EF84)
+I (F:\Programs\Keil4\ARM\ARMCC\include\string.h)(0x51C7EF84)
+I (.\port\port.h)(0x55A68CF1)
+I (F:\Programs\Keil4\ARM\ARMCC\include\assert.h)(0x51C7EF84)
+I (F:\Programs\Keil4\ARM\ARMCC\include\stdint.h)(0x51C7EF84)
+I (.\modbus\include\mb.h)(0x4578672A)
+I (.\modbus\include\mbport.h)(0x4C0B7060)
+I (.\modbus\include\mbproto.h)(0x4578672A)
+I (.\modbus\include\mbframe.h)(0x4578672A)
+I (.\modbus\include\mbconfig.h)(0x4C0B7060)
+F (.\modbus\functions\mbutils.c)(0x45D8BBC4)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\MDR-freemodbus -I.\modbus -I.\modbus\ascii -I.\modbus\functions -I.\modbus\include -I.\modbus\rtu -I.\modbus\tcp -I.\port -I.\SPL\inc -I.\SPL\src -I.\Config -I.\System-I F:\Programs\Keil4\ARM\RV31\INC-I F:\Programs\Keil4\ARM\CMSIS\Include-I F:\Programs\Keil4\ARM\Inc\Milandr\MDR32F9x-o .\mbutils.o --omf_browse .\mbutils.crf --depend .\mbutils.d)
+I (F:\Programs\Keil4\ARM\ARMCC\include\stdlib.h)(0x51C7EF84)
+I (F:\Programs\Keil4\ARM\ARMCC\include\string.h)(0x51C7EF84)
+I (.\port\port.h)(0x55A68CF1)
+I (F:\Programs\Keil4\ARM\ARMCC\include\assert.h)(0x51C7EF84)
+I (F:\Programs\Keil4\ARM\ARMCC\include\stdint.h)(0x51C7EF84)
+I (.\modbus\include\mb.h)(0x4578672A)
+I (.\modbus\include\mbport.h)(0x4C0B7060)
+I (.\modbus\include\mbproto.h)(0x4578672A)
+F (.\modbus\rtu\mbcrc.c)(0x45D8BC14)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\MDR-freemodbus -I.\modbus -I.\modbus\ascii -I.\modbus\functions -I.\modbus\include -I.\modbus\rtu -I.\modbus\tcp -I.\port -I.\SPL\inc -I.\SPL\src -I.\Config -I.\System-I F:\Programs\Keil4\ARM\RV31\INC-I F:\Programs\Keil4\ARM\CMSIS\Include-I F:\Programs\Keil4\ARM\Inc\Milandr\MDR32F9x-o .\mbcrc.o --omf_browse .\mbcrc.crf --depend .\mbcrc.d)
+I (.\port\port.h)(0x55A68CF1)
+I (F:\Programs\Keil4\ARM\ARMCC\include\assert.h)(0x51C7EF84)
+I (F:\Programs\Keil4\ARM\ARMCC\include\stdint.h)(0x51C7EF84)
+F (.\modbus\rtu\mbrtu.c)(0x46E7841C)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\MDR-freemodbus -I.\modbus -I.\modbus\ascii -I.\modbus\functions -I.\modbus\include -I.\modbus\rtu -I.\modbus\tcp -I.\port -I.\SPL\inc -I.\SPL\src -I.\Config -I.\System-I F:\Programs\Keil4\ARM\RV31\INC-I F:\Programs\Keil4\ARM\CMSIS\Include-I F:\Programs\Keil4\ARM\Inc\Milandr\MDR32F9x-o .\mbrtu.o --omf_browse .\mbrtu.crf --depend .\mbrtu.d)
+I (F:\Programs\Keil4\ARM\ARMCC\include\stdlib.h)(0x51C7EF84)
+I (F:\Programs\Keil4\ARM\ARMCC\include\string.h)(0x51C7EF84)
+I (.\port\port.h)(0x55A68CF1)
+I (F:\Programs\Keil4\ARM\ARMCC\include\assert.h)(0x51C7EF84)
+I (F:\Programs\Keil4\ARM\ARMCC\include\stdint.h)(0x51C7EF84)
+I (.\modbus\include\mb.h)(0x4578672A)
+I (.\modbus\include\mbport.h)(0x4C0B7060)
+I (.\modbus\include\mbproto.h)(0x4578672A)
+I (modbus\rtu\mbrtu.h)(0x4578672A)
+I (.\modbus\include\mbframe.h)(0x4578672A)
+I (modbus\rtu\mbcrc.h)(0x4578672A)
+F (.\modbus\tcp\mbtcp.c)(0x4578672A)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\MDR-freemodbus -I.\modbus -I.\modbus\ascii -I.\modbus\functions -I.\modbus\include -I.\modbus\rtu -I.\modbus\tcp -I.\port -I.\SPL\inc -I.\SPL\src -I.\Config -I.\System-I F:\Programs\Keil4\ARM\RV31\INC-I F:\Programs\Keil4\ARM\CMSIS\Include-I F:\Programs\Keil4\ARM\Inc\Milandr\MDR32F9x-o .\mbtcp.o --omf_browse .\mbtcp.crf --depend .\mbtcp.d)
+I (F:\Programs\Keil4\ARM\ARMCC\include\stdlib.h)(0x51C7EF84)
+I (F:\Programs\Keil4\ARM\ARMCC\include\string.h)(0x51C7EF84)
+I (.\port\port.h)(0x55A68CF1)
+I (F:\Programs\Keil4\ARM\ARMCC\include\assert.h)(0x51C7EF84)
+I (F:\Programs\Keil4\ARM\ARMCC\include\stdint.h)(0x51C7EF84)
+I (.\modbus\include\mb.h)(0x4578672A)
+I (.\modbus\include\mbport.h)(0x4C0B7060)
+I (.\modbus\include\mbproto.h)(0x4578672A)
+I (.\modbus\include\mbconfig.h)(0x4C0B7060)
+I (modbus\tcp\mbtcp.h)(0x4578672A)
+I (.\modbus\include\mbframe.h)(0x4578672A)
+F (.\port\port.h)(0x55A68CF1)()
+F (.\port\portevent.c)(0x535DBC36)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\MDR-freemodbus -I.\modbus -I.\modbus\ascii -I.\modbus\functions -I.\modbus\include -I.\modbus\rtu -I.\modbus\tcp -I.\port -I.\SPL\inc -I.\SPL\src -I.\Config -I.\System-I F:\Programs\Keil4\ARM\RV31\INC-I F:\Programs\Keil4\ARM\CMSIS\Include-I F:\Programs\Keil4\ARM\Inc\Milandr\MDR32F9x-o .\portevent.o --omf_browse .\portevent.crf --depend .\portevent.d)
+I (.\modbus\include\mb.h)(0x4578672A)
+I (.\port\port.h)(0x55A68CF1)
+I (F:\Programs\Keil4\ARM\ARMCC\include\assert.h)(0x51C7EF84)
+I (F:\Programs\Keil4\ARM\ARMCC\include\stdint.h)(0x51C7EF84)
+I (.\modbus\include\mbport.h)(0x4C0B7060)
+I (.\modbus\include\mbproto.h)(0x4578672A)
+F (.\port\portserial.c)(0x55A69D6B)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\MDR-freemodbus -I.\modbus -I.\modbus\ascii -I.\modbus\functions -I.\modbus\include -I.\modbus\rtu -I.\modbus\tcp -I.\port -I.\SPL\inc -I.\SPL\src -I.\Config -I.\System-I F:\Programs\Keil4\ARM\RV31\INC-I F:\Programs\Keil4\ARM\CMSIS\Include-I F:\Programs\Keil4\ARM\Inc\Milandr\MDR32F9x-o .\portserial.o --omf_browse .\portserial.crf --depend .\portserial.d)
+I (port\port.h)(0x55A68CF1)
+I (F:\Programs\Keil4\ARM\ARMCC\include\assert.h)(0x51C7EF84)
+I (F:\Programs\Keil4\ARM\ARMCC\include\stdint.h)(0x51C7EF84)
+I (.\modbus\include\mb.h)(0x4578672A)
+I (.\modbus\include\mbport.h)(0x4C0B7060)
+I (.\modbus\include\mbproto.h)(0x4578672A)
+F (.\port\porttimer.c)(0x55A69BC2)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\MDR-freemodbus -I.\modbus -I.\modbus\ascii -I.\modbus\functions -I.\modbus\include -I.\modbus\rtu -I.\modbus\tcp -I.\port -I.\SPL\inc -I.\SPL\src -I.\Config -I.\System-I F:\Programs\Keil4\ARM\RV31\INC-I F:\Programs\Keil4\ARM\CMSIS\Include-I F:\Programs\Keil4\ARM\Inc\Milandr\MDR32F9x-o .\porttimer.o --omf_browse .\porttimer.crf --depend .\porttimer.d)
+I (port\port.h)(0x55A68CF1)
+I (F:\Programs\Keil4\ARM\ARMCC\include\assert.h)(0x51C7EF84)
+I (F:\Programs\Keil4\ARM\ARMCC\include\stdint.h)(0x51C7EF84)
+I (.\modbus\include\mb.h)(0x4578672A)
+I (.\modbus\include\mbport.h)(0x4C0B7060)
+I (.\modbus\include\mbproto.h)(0x4578672A)
+F (.\demo.c)(0x55A69CA1)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\MDR-freemodbus -I.\modbus -I.\modbus\ascii -I.\modbus\functions -I.\modbus\include -I.\modbus\rtu -I.\modbus\tcp -I.\port -I.\SPL\inc -I.\SPL\src -I.\Config -I.\System-I F:\Programs\Keil4\ARM\RV31\INC-I F:\Programs\Keil4\ARM\CMSIS\Include-I F:\Programs\Keil4\ARM\Inc\Milandr\MDR32F9x-o .\demo.o --omf_browse .\demo.crf --depend .\demo.d)
+I (.\modbus\include\mb.h)(0x4578672A)
+I (.\port\port.h)(0x55A68CF1)
+I (F:\Programs\Keil4\ARM\ARMCC\include\assert.h)(0x51C7EF84)
+I (F:\Programs\Keil4\ARM\ARMCC\include\stdint.h)(0x51C7EF84)
+I (.\modbus\include\mbport.h)(0x4C0B7060)
+I (.\modbus\include\mbproto.h)(0x4578672A)
+F (.\SPL\src\MDR32F9Qx_uart.c)(0x5295C12A)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\MDR-freemodbus -I.\modbus -I.\modbus\ascii -I.\modbus\functions -I.\modbus\include -I.\modbus\rtu -I.\modbus\tcp -I.\port -I.\SPL\inc -I.\SPL\src -I.\Config -I.\System-I F:\Programs\Keil4\ARM\RV31\INC-I F:\Programs\Keil4\ARM\CMSIS\Include-I F:\Programs\Keil4\ARM\Inc\Milandr\MDR32F9x-o .\mdr32f9qx_uart.o --omf_browse .\mdr32f9qx_uart.crf --depend .\mdr32f9qx_uart.d)
+I (.\Config\MDR32F9Qx_config.h)(0x5295C127)
+I (.\Config\MDR32F9Qx_board.h)(0x5295C127)
+I (.\SPL\inc\MDR32F9Qx_lib.h)(0x5295C12A)
+I (F:\Programs\Keil4\ARM\ARMCC\include\stdint.h)(0x51C7EF84)
+I (.\System\MDR32Fx.h)(0x5295C12A)
+I (F:\Programs\Keil4\ARM\CMSIS\Include\core_cm3.h)(0x532C21F2)
+I (F:\Programs\Keil4\ARM\CMSIS\Include\core_cmInstr.h)(0x532C21F2)
+I (F:\Programs\Keil4\ARM\CMSIS\Include\core_cmFunc.h)(0x532C21F2)
+I (.\System\system_MDR32F9Qx.h)(0x5295C12A)
+I (.\SPL\inc\MDR32F9Qx_uart.h)(0x5295C12A)
+I (.\SPL\inc\MDR32F9Qx_rst_clk.h)(0x5295C12A)
+F (.\SPL\src\MDR32F9Qx_timer.c)(0x5295C12A)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\MDR-freemodbus -I.\modbus -I.\modbus\ascii -I.\modbus\functions -I.\modbus\include -I.\modbus\rtu -I.\modbus\tcp -I.\port -I.\SPL\inc -I.\SPL\src -I.\Config -I.\System-I F:\Programs\Keil4\ARM\RV31\INC-I F:\Programs\Keil4\ARM\CMSIS\Include-I F:\Programs\Keil4\ARM\Inc\Milandr\MDR32F9x-o .\mdr32f9qx_timer.o --omf_browse .\mdr32f9qx_timer.crf --depend .\mdr32f9qx_timer.d)
+I (.\Config\MDR32F9Qx_config.h)(0x5295C127)
+I (.\Config\MDR32F9Qx_board.h)(0x5295C127)
+I (.\SPL\inc\MDR32F9Qx_lib.h)(0x5295C12A)
+I (F:\Programs\Keil4\ARM\ARMCC\include\stdint.h)(0x51C7EF84)
+I (.\System\MDR32Fx.h)(0x5295C12A)
+I (F:\Programs\Keil4\ARM\CMSIS\Include\core_cm3.h)(0x532C21F2)
+I (F:\Programs\Keil4\ARM\CMSIS\Include\core_cmInstr.h)(0x532C21F2)
+I (F:\Programs\Keil4\ARM\CMSIS\Include\core_cmFunc.h)(0x532C21F2)
+I (.\System\system_MDR32F9Qx.h)(0x5295C12A)
+I (.\SPL\inc\MDR32F9Qx_timer.h)(0x5295C12A)
+F (.\SPL\src\MDR32F9Qx_ssp.c)(0x5295C12A)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\MDR-freemodbus -I.\modbus -I.\modbus\ascii -I.\modbus\functions -I.\modbus\include -I.\modbus\rtu -I.\modbus\tcp -I.\port -I.\SPL\inc -I.\SPL\src -I.\Config -I.\System-I F:\Programs\Keil4\ARM\RV31\INC-I F:\Programs\Keil4\ARM\CMSIS\Include-I F:\Programs\Keil4\ARM\Inc\Milandr\MDR32F9x-o .\mdr32f9qx_ssp.o --omf_browse .\mdr32f9qx_ssp.crf --depend .\mdr32f9qx_ssp.d)
+I (.\Config\MDR32F9Qx_config.h)(0x5295C127)
+I (.\Config\MDR32F9Qx_board.h)(0x5295C127)
+I (.\SPL\inc\MDR32F9Qx_lib.h)(0x5295C12A)
+I (F:\Programs\Keil4\ARM\ARMCC\include\stdint.h)(0x51C7EF84)
+I (.\System\MDR32Fx.h)(0x5295C12A)
+I (F:\Programs\Keil4\ARM\CMSIS\Include\core_cm3.h)(0x532C21F2)
+I (F:\Programs\Keil4\ARM\CMSIS\Include\core_cmInstr.h)(0x532C21F2)
+I (F:\Programs\Keil4\ARM\CMSIS\Include\core_cmFunc.h)(0x532C21F2)
+I (.\System\system_MDR32F9Qx.h)(0x5295C12A)
+I (.\SPL\inc\MDR32F9Qx_ssp.h)(0x5295C12A)
+I (.\SPL\inc\MDR32F9Qx_rst_clk.h)(0x5295C12A)
+F (.\SPL\src\MDR32F9Qx_port.c)(0x5295C12A)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\MDR-freemodbus -I.\modbus -I.\modbus\ascii -I.\modbus\functions -I.\modbus\include -I.\modbus\rtu -I.\modbus\tcp -I.\port -I.\SPL\inc -I.\SPL\src -I.\Config -I.\System-I F:\Programs\Keil4\ARM\RV31\INC-I F:\Programs\Keil4\ARM\CMSIS\Include-I F:\Programs\Keil4\ARM\Inc\Milandr\MDR32F9x-o .\mdr32f9qx_port.o --omf_browse .\mdr32f9qx_port.crf --depend .\mdr32f9qx_port.d)
+I (.\Config\MDR32F9Qx_config.h)(0x5295C127)
+I (.\Config\MDR32F9Qx_board.h)(0x5295C127)
+I (.\SPL\inc\MDR32F9Qx_lib.h)(0x5295C12A)
+I (F:\Programs\Keil4\ARM\ARMCC\include\stdint.h)(0x51C7EF84)
+I (.\System\MDR32Fx.h)(0x5295C12A)
+I (F:\Programs\Keil4\ARM\CMSIS\Include\core_cm3.h)(0x532C21F2)
+I (F:\Programs\Keil4\ARM\CMSIS\Include\core_cmInstr.h)(0x532C21F2)
+I (F:\Programs\Keil4\ARM\CMSIS\Include\core_cmFunc.h)(0x532C21F2)
+I (.\System\system_MDR32F9Qx.h)(0x5295C12A)
+I (.\SPL\inc\MDR32F9Qx_port.h)(0x5295C12A)
+F (.\SPL\src\MDR32F9Qx_rst_clk.c)(0x5295C12A)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\MDR-freemodbus -I.\modbus -I.\modbus\ascii -I.\modbus\functions -I.\modbus\include -I.\modbus\rtu -I.\modbus\tcp -I.\port -I.\SPL\inc -I.\SPL\src -I.\Config -I.\System-I F:\Programs\Keil4\ARM\RV31\INC-I F:\Programs\Keil4\ARM\CMSIS\Include-I F:\Programs\Keil4\ARM\Inc\Milandr\MDR32F9x-o .\mdr32f9qx_rst_clk.o --omf_browse .\mdr32f9qx_rst_clk.crf --depend .\mdr32f9qx_rst_clk.d)
+I (.\Config\MDR32F9Qx_config.h)(0x5295C127)
+I (.\Config\MDR32F9Qx_board.h)(0x5295C127)
+I (.\SPL\inc\MDR32F9Qx_lib.h)(0x5295C12A)
+I (F:\Programs\Keil4\ARM\ARMCC\include\stdint.h)(0x51C7EF84)
+I (.\System\MDR32Fx.h)(0x5295C12A)
+I (F:\Programs\Keil4\ARM\CMSIS\Include\core_cm3.h)(0x532C21F2)
+I (F:\Programs\Keil4\ARM\CMSIS\Include\core_cmInstr.h)(0x532C21F2)
+I (F:\Programs\Keil4\ARM\CMSIS\Include\core_cmFunc.h)(0x532C21F2)
+I (.\System\system_MDR32F9Qx.h)(0x5295C12A)
+I (.\SPL\inc\MDR32F9Qx_rst_clk.h)(0x5295C12A)
+F (.\Config\MDR32F9Qx_board.h)(0x5295C127)()
+F (.\Config\MDR32F9Qx_config.h)(0x5295C127)()
